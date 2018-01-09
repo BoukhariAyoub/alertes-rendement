@@ -10,7 +10,7 @@ function ServiceHandler() {
     return json_encode($data);
 };
 
-function getAnnonces(){
+function getAnnonces() {
 $leboncoin = new LeBonCoin();
 $options = array(
 		"search_title_only" => 1,
@@ -34,7 +34,7 @@ $app = new \Slim\App;
 	
 	
 $app->get('/Annonces', 'getAnnonces');
-$app->get('/', 'ServiceHandler');
+$app->get('/', 'getAnnonces');
 $app->post('/', 'ServiceHandler');
 
 $app->run();
