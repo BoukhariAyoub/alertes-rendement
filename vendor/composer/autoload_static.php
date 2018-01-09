@@ -7,7 +7,13 @@ namespace Composer\Autoload;
 class ComposerStaticInit7a805c9b86dbe6b59d8dbaefeccc49e4
 {
     public static $files = array (
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
+        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        '50b81ffc01da30f98e463592787d7917' => __DIR__ . '/..' . '/jeremykendall/php-domain-parser/src/pdp-parse-url.php',
         '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
+        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
+        'ee05f3eb6cd106ac99bfaf4d0d9829d8' => __DIR__ . '/..' . '/league/uri/src/functions_include.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -25,7 +31,11 @@ class ComposerStaticInit7a805c9b86dbe6b59d8dbaefeccc49e4
         ),
         'S' => 
         array (
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\Yaml\\' => 23,
+            'Symfony\\Component\\Translation\\' => 30,
+            'Symfony\\Component\\DomCrawler\\' => 29,
+            'Symfony\\Component\\CssSelector\\' => 30,
             'Slim\\Views\\' => 11,
             'Slim\\' => 5,
         ),
@@ -37,9 +47,20 @@ class ComposerStaticInit7a805c9b86dbe6b59d8dbaefeccc49e4
         array (
             'Monolog\\' => 8,
         ),
+        'L' => 
+        array (
+            'League\\Uri\\' => 11,
+            'Lbc\\' => 4,
+        ),
         'I' => 
         array (
             'Interop\\Container\\' => 18,
+        ),
+        'G' => 
+        array (
+            'GuzzleHttp\\Psr7\\' => 16,
+            'GuzzleHttp\\Promise\\' => 19,
+            'GuzzleHttp\\' => 11,
         ),
         'F' => 
         array (
@@ -48,6 +69,10 @@ class ComposerStaticInit7a805c9b86dbe6b59d8dbaefeccc49e4
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
+        ),
+        'C' => 
+        array (
+            'Carbon\\' => 7,
         ),
     );
 
@@ -66,9 +91,25 @@ class ComposerStaticInit7a805c9b86dbe6b59d8dbaefeccc49e4
         array (
             0 => __DIR__ . '/../..' . '/tests',
         ),
+        'Symfony\\Polyfill\\Mbstring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
         'Symfony\\Component\\Yaml\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/yaml',
+        ),
+        'Symfony\\Component\\Translation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/translation',
+        ),
+        'Symfony\\Component\\DomCrawler\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/dom-crawler',
+        ),
+        'Symfony\\Component\\CssSelector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/css-selector',
         ),
         'Slim\\Views\\' => 
         array (
@@ -86,9 +127,29 @@ class ComposerStaticInit7a805c9b86dbe6b59d8dbaefeccc49e4
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
+        'League\\Uri\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/uri/src',
+        ),
+        'Lbc\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/rfussien/leboncoin-crawler/src',
+        ),
         'Interop\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/container-interop/container-interop/src/Interop/Container',
+        ),
+        'GuzzleHttp\\Psr7\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
+        ),
+        'GuzzleHttp\\Promise\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/promises/src',
+        ),
+        'GuzzleHttp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
         'FastRoute\\' => 
         array (
@@ -97,6 +158,10 @@ class ComposerStaticInit7a805c9b86dbe6b59d8dbaefeccc49e4
         'Doctrine\\Instantiator\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
+        ),
+        'Carbon\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
         ),
     );
 
@@ -114,6 +179,10 @@ class ComposerStaticInit7a805c9b86dbe6b59d8dbaefeccc49e4
             'Pimple' => 
             array (
                 0 => __DIR__ . '/..' . '/pimple/pimple/src',
+            ),
+            'Pdp\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/jeremykendall/php-domain-parser/src',
             ),
         ),
     );
