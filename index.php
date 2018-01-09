@@ -33,7 +33,7 @@ $app = new \Slim\App;
 
 	
 	
-$app->get('/Annonces', 'getAnnonces');
+$app->get('/annonces/', 'getAnnonces');
 $app->get('/', 'getAnnonces');
 $app->post('/', 'ServiceHandler');
 
